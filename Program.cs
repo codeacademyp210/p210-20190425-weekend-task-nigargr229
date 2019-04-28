@@ -13,8 +13,8 @@ namespace ConsoleApp5
             Console.WriteLine("o-Create order");
 
 
-            string option = Console.ReadLine();
-            if (option == "i")
+            string other = Console.ReadLine();
+            if (other == "i")
             {
                 Employee emp = new Employee();                
                 Console.WriteLine("Name :");
@@ -33,7 +33,7 @@ namespace ConsoleApp5
                 Console.ReadLine();
 
             }
-            if (option == "m")
+            if (other == "m")
             {
                 Client client = new Client();             
                 Console.WriteLine("Name :");
@@ -54,7 +54,7 @@ namespace ConsoleApp5
                 Console.ReadLine();
 
             }
-            if (option == "p")
+            if (other == "p")
             {
                 Product Product = new Product();
                 Console.WriteLine("Name :");
@@ -66,7 +66,7 @@ namespace ConsoleApp5
                 Console.WriteLine("{0} - Product created : {1} {2} {3}$", Product.Id, Product.Name, Product.Color, Product.Price);
                 Console.ReadLine();
             }
-            if (option == "o")
+            if (other == "o")
             {
                 Console.WriteLine("Order created");
                 Order order = new Order();
