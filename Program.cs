@@ -74,7 +74,7 @@ namespace ConsoleApp5
                 order.Count = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Amount :");
                 order.Count = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("{0} - Count:{1}. General amount to be paid :{1}",Order.Id,order.Count,order.Amount);
+                Console.WriteLine("{0} - Count:{1}. General amount to be paid :{2}",Order.Id,order.Count,order.Amount);
                 Console.ReadLine();
                
             }
